@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/goadesign/goa-cellar/client"
-	"github.com/goadesign/goa-cellar/tool/cli"
+	"github.com/BlueMaverick/EPAMassignment/client"
+	"github.com/BlueMaverick/EPAMassignment/tool/cli"
 	goaclient "github.com/goadesign/goa/client"
 	"github.com/spf13/cobra"
 	"net/http"

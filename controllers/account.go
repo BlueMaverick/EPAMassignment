@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
-	"github.com/goadesign/goa-cellar/store"
+	"github.com/BlueMaverick/EPAMassignment/app"
+	"github.com/BlueMaverick/EPAMassignment/store"
 )
 
 // ToAccountMedia builds an account media type from an account model.

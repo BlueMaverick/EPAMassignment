@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/BlueMaverick/EPAMassignment/design
+// --out=$(GOPATH)/src/github.com/BlueMaverick/EPAMassignment
 // --version=v1.3.1
 
 package cli
@@ -15,7 +15,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/client"
+	"github.com/BlueMaverick/EPAMassignment/client"
 	goaclient "github.com/goadesign/goa/client"
 	uuid "github.com/goadesign/goa/uuid"
 	"github.com/spf13/cobra"

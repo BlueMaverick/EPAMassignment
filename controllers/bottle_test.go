@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
-	"github.com/goadesign/goa-cellar/app/test"
-	"github.com/goadesign/goa-cellar/store"
+	"github.com/BlueMaverick/EPAMassignment/app"
+	"github.com/BlueMaverick/EPAMassignment/app/test"
+	"github.com/BlueMaverick/EPAMassignment/store"
 )
 
 // Use variables for these so we can take their address

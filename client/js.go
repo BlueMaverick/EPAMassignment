@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/BlueMaverick/EPAMassignment/design
+// --out=$(GOPATH)/src/github.com/BlueMaverick/EPAMassignment
 // --version=v1.3.1
 
 package client

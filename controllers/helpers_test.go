@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/goadesign/goa-cellar/store"
+	"github.com/BlueMaverick/EPAMassignment/store"
 )
 
 const (

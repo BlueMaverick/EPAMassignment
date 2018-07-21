@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/goadesign/goa-cellar/design
-// --out=$(GOPATH)/src/github.com/goadesign/goa-cellar
+// --design=github.com/BlueMaverick/EPAMassignment/design
+// --out=$(GOPATH)/src/github.com/BlueMaverick/EPAMassignment
 // --version=v1.3.1
 
 package test
@@ -15,7 +15,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
+	"github.com/BlueMaverick/EPAMassignment/app"
 	"github.com/goadesign/goa/goatest"
 	"io"
 	"log"

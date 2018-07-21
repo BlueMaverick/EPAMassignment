@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/goadesign/goa"
-	"github.com/goadesign/goa-cellar/app"
-	"github.com/goadesign/goa-cellar/store"
+	"github.com/BlueMaverick/EPAMassignment/app"
+	"github.com/BlueMaverick/EPAMassignment/store"
 	"golang.org/x/net/websocket"
 )
 
