@@ -53,7 +53,7 @@ func main() {
 	app.MountSwaggerController(service, sc)
 
 	// Run service
-	if err := service.ListenAndServe(":5000"); err != nil {
+	if err := service.ListenAndServe(":8081"); err != nil {
 		service.LogError(err.Error())
 	}
 }
