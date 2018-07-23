@@ -1,0 +1,32 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: "goa-cellar-amol"
+  labels:
+    app: "goa-cellar"
+    chart: "goa-cellar"
+    release: "test-release"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "goa-cellar"
+      release: "test-release"
+  template:
+    metadata:
+      labels:
+        app: "goa-cellar"
+        release: "test-release"
+    spec:
+      containers:
+        - name: "goa-cellar"
+          image: "devopsmaverick/goa-cellar-amol:v1"
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          resources:
+      nodeSelector:
+      affinity:
+      tolerations:
